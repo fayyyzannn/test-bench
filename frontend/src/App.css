@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.add-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.add-form input {
+  padding: 8px;
+  font-size: 16px;
+  flex: 1;
+  min-width: 0;
+}
+
+.add-form input[type="number"] {
+  flex: 0 0 80px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.watched label {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.year {
+  color: gray;
+}
+
+.error {
+  color: red;
+}
