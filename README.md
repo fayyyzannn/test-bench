@@ -12,7 +12,7 @@ You can add movies, mark them as watched and delete them. Everything is saved in
 
 ## Setup
 
-Postgres needs to be running with a database called `learning-test` (user: `postgres`, password: `postgres`).
+
 The `movies` table gets created when the backend starts.
 
 ### Backend
